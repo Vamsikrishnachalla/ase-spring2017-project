@@ -7,7 +7,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
+import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -26,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                String value = dataSnapshot.getValue().toString();
+                String value  = dataSnapshot.getValue().toString();
                 textView.setText(value);
             }
 
@@ -45,7 +48,9 @@ public class MainActivity extends AppCompatActivity {
         String x = e.getText().toString();
         EditText editText = (EditText)findViewById(R.id.editText);
         String s = editText.getText().toString();
-        reference.setValue(x+":"+s);
+        TextView t = (TextView)findViewById(R.id.textView);
+        String b = t.getText().toString();
+        reference.setValue(b+"\n\n"+x+" : "+s);
         editText.setText("");
         e.setVisibility(View.GONE);
     }
