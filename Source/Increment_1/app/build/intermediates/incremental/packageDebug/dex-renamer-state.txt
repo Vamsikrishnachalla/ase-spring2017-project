@@ -1,7 +1,0 @@
-#Fri Feb 17 09:09:43 CST 2017
-base.0=F\:\\Course_Buddy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0dfd47a44b933788553f2ab819620654ad68e50d
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=F\:\\Course_Buddy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8d2dbaea851fe1f2e60ef0af9e698cae7d7c32d0\\classes.dex
-base.1=F\:\\Course_Buddy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8d2dbaea851fe1f2e60ef0af9e698cae7d7c32d0
-file.0=F\:\\Course_Buddy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0dfd47a44b933788553f2ab819620654ad68e50d\\classes.dex
