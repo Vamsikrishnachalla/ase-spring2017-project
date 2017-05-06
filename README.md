@@ -1,7 +1,7 @@
 # ASE-Spring2017-Project
 Project Title - Course Buddy
 Project Members:
-1.Vamsy Krishna Challa
+1.Vamsi Krishna Challa
 2.Girish Kumar Reddy 
 3.Shankar Pentyala
 
